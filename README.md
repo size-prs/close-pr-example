@@ -13,6 +13,8 @@ So, you could create a Github workflow that will automatically close too large P
 1. Install the Size PRs application.
 1. Create [.github/workflows/close-pr.yaml](.github/workflows/close-pr.yaml) to automatically close Pull Requests.
 
+    This uses [close-pull](https://github.com/marketplace/actions/close-pull).
+
 This example closes `huge` Pull Requests, but you could change the conditions or use other labels for your workflow.
 
 ## Example Pull Request
